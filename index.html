@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="cyan" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+    <meta name="theme-color" content="blue">
+
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <title>Curriculum vitae</title>
+</head>
+
+<body>
+    <div class="encuadre" id="encuadre">
+        <!--Menú inicio-->
+        <div class="navbar" id="navbar">
+            <ul>
+                <a class="active" href="index.html">Home</a>
+                <a href="estudios.html">Estudios</a>
+                <a href="conocimientos.html">Conocimientos</a>
+                <a href="experiencia.html">Experiencia</a>
+            </ul>
+            <a href="#" class="tema" onclick="cambiarTema()">Cambiar tema</a>
+
+        </div>
+
+        <!--    <span class="linicio"><a href="index.html" class="button">Inicio</a></span>
+            <span class="lestudios"> <a href="estudios.html" class="button">Estudios</a></span>
+            <span class="lconocimiento"><a href="conocimientos.html" class="button">Conocimientos</a></span>
+            <span class="lexperiencia "><a href="experiencia.html" class="button">Experiencia</a></span>
+                
+        Menú fin-->
+        <!--Perfil inicio-->
+        <div class="perfil" id="perfil">
+            <img src="images/perfil.png" class="foto">
+            <div class="desperfil" id="desperfil">
+                <span class="perfilnombre">Iván G. Ayala</span>
+                <span class="perfilnacion">Argentino</span>
+                <span class="perfilprofesion">Software Developer</span>
+            </div>
+        </div>
+        <!--Perfil fin-->
+        <!--Textos inicio-->
+        <div class="textos" id="textos">
+
+            <div class="resenia" id="resenia">
+                <span class="txtresenia">
+                    Desarrollador proactivo. Enfocado en buscar la solución más
+                    eficiente para cumplir los objetivos establecidos.<br><br> <br>
+                </span>
+
+                <span class="txtubicacion" id="ubicacion">
+                    Ubicación actual <br>
+                    Buenos Aires, Argentina <br><br>
+                </span>
+
+                <span class="txttrabajo" id="trabajo">
+                    Posición laboral actual <br>
+                    Consultor ABAP <br> <br>
+                </span>
+
+                <span class="txtidiomas" id="idiomas">
+                    Idiomas <br>
+                    Castellano nativo <br>
+                    Inglés intermedio <br>
+                </span>
+            </div>
+        </div>
+        <!--Textos fin-->
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+
+                    <p class="copyright">
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Derechos Reservados | Trabajo
+                        Práctico
+                        <br>
+                        <img src="images/uade.png" alt="Logo Uade" style="width: 100px; height: auto;" />
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script src="js/eventos.js"></script>
+
+</body>
+
+</html>
